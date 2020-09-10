@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">IoTSmokeSensor</string>
+    <string name="app_name">Smart Alerts</string>
     <string name="alert">Alert</string>
     <string name="smokedetected">Smoke Detected</string>
     <string name="noalertsmsg">Alerts will let you know if something happens.</string>
