@@ -7,8 +7,8 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="188dp"
-        android:layout_height="170dp"
+        android:layout_width="315dp"
+        android:layout_height="199dp"
         android:layout_marginStart="111dp"
         android:layout_marginTop="65dp"
         android:layout_marginEnd="112dp"
@@ -17,7 +17,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/shield" />
+        app:srcCompat="@drawable/shield"
+        tools:srcCompat="@drawable/everythingfine" />
 
     <TextView
         android:id="@+id/textView6"
@@ -28,6 +29,8 @@
         android:layout_marginEnd="130dp"
         android:layout_marginBottom="393dp"
         android:text="@string/workingexpected"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,7 +44,9 @@
         android:layout_marginTop="465dp"
         android:layout_marginEnd="162dp"
         android:layout_marginBottom="218dp"
+        android:backgroundTint="#FBF9F9"
         android:text="Go back"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
